@@ -1,0 +1,80 @@
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 15%
+  }
+  
+  /* Dropdown header */
+  .dropdown-header {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dropdown options */
+  .dropdown-option {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Group header */
+  .dropdown-option.is-group {
+    font-weight: bold;
+    padding: 8px 16px;
+  }
+  
+  /* Indent sub-options */
+  .dropdown-option.sub-option {
+    padding-left: 20px;
+  }
+  
+  /* Dropdown controls */
+  .dropdown-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Search input */
+  .dropdown-controls input[type="text"] {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Checkbox */
+  .dropdown-controls input[type="checkbox"] {
+    margin-right: 4px;
+  }
+  
+  /* Options container */
+  .options-container {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
